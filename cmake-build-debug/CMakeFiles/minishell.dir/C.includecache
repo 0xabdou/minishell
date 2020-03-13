@@ -7,17 +7,15 @@
 #IncludeRegexTransform: 
 
 ../includes/parser.h
+utils.h
+../includes/utils.h
+libft.h
+../includes/libft.h
 
 ../includes/utils.h
 stdlib.h
 -
 stdio.h
--
-
-../sources/libft/inc/get_next_line.h
-unistd.h
--
-stdlib.h
 -
 
 ../sources/libft/inc/libft.h
@@ -28,25 +26,7 @@ stdlib.h
 unistd.h
 -
 
-../sources/libft/inc/libftprintf.h
-libft.h
-../sources/libft/inc/libft.h
-stdarg.h
--
-
-/Users/aouahib/CLionProjects/minishell/main.c
-stdio.h
--
-unistd.h
--
-stdlib.h
--
-get_next_line.h
--
-libftprintf.h
--
-utils.h
--
+/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c
 parser.h
-/Users/aouahib/CLionProjects/minishell/parser.h
+/Users/aouahib/CLionProjects/minishell/sources/parser/parser.h
 

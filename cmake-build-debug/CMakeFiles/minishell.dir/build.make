@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -1058,6 +1058,136 @@ CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.s
 
+CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o: ../sources/parser/handle_in_string_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o: ../sources/parser/handle_in_semicolon_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: ../sources/parser/handle_in_pipe_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o: ../sources/parser/handle_in_ampresand_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o: ../sources/parser/handle_in_or_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_or_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_or_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_or_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o: ../sources/parser/handle_in_and_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o: ../sources/parser/handle_in_single_quotes_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o: ../sources/parser/handle_in_double_quotes_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o: ../sources/parser/handle_in_backslash_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o: ../sources/parser/handle_initial_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c > CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s
+
 # Object files for target minishell
 minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/main.c.o" \
@@ -1136,7 +1266,17 @@ minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/sources/utils/ls_append.c.o" \
 "CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o" \
 "CMakeFiles/minishell.dir/sources/utils/ls_length.c.o" \
-"CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o"
+"CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o"
 
 # External object files for target minishell
 minishell_EXTERNAL_OBJECTS =
@@ -1218,9 +1358,19 @@ minishell: CMakeFiles/minishell.dir/sources/utils/ls_append.c.o
 minishell: CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o
 minishell: CMakeFiles/minishell.dir/sources/utils/ls_length.c.o
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

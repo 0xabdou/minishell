@@ -41,9 +41,23 @@ typedef struct	s_parse_params
 	t_state			current_state;
 	t_state			next_state;
 	t_linked_string	*token;
+	t_char_category cat;
 	t_list			*tokens;
+	int				last_chance;
+	int				i;
+	char			c;
 }				t_parse_params;
 
-void	handle_general_state();
+void	handle_initial_state(t_parse_params *params);
+void	handle_general_state(t_parse_params *params);
+void	handle_in_string_state(t_parse_params *params);
+void	handle_in_semicolon_state(t_parse_params *params);
+void	handle_in_pipe_state(t_parse_params *params);
+void	handle_in_ampersand_state(t_parse_params *params);
+void	handle_in_or_state(t_parse_params *params);
+void	handle_in_and_state(t_parse_params *params);
+void	handle_in_single_quotes_state(t_parse_params *params);
+void	handle_in_double_quotes_state(t_parse_params *params);
+void	handle_in_backslash_state(t_parse_params *params);
 
 #endif

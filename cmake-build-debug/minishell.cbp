@@ -312,6 +312,36 @@
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c">
 			<Option target="minishell"/>
 		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_or_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c">
+			<Option target="minishell"/>
+		</Unit>
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/utils/ls_append.c">
 			<Option target="minishell"/>
 		</Unit>

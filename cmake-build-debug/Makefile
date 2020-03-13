@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/aouahib/CLionProjects/minishell/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/30A2E462-F817-4382-9B71-5FEFD494837C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n000c_wr0032q6/T/AppTranslocation/68870FC8-F851-4B2D-8136-5B40AA3A2EE6/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -2121,6 +2121,276 @@ sources/parser/handle_general_state.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.s
 .PHONY : sources/parser/handle_general_state.c.s
 
+sources/parser/handle_in_ampresand_state.o: sources/parser/handle_in_ampresand_state.c.o
+
+.PHONY : sources/parser/handle_in_ampresand_state.o
+
+# target to build an object file
+sources/parser/handle_in_ampresand_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o
+.PHONY : sources/parser/handle_in_ampresand_state.c.o
+
+sources/parser/handle_in_ampresand_state.i: sources/parser/handle_in_ampresand_state.c.i
+
+.PHONY : sources/parser/handle_in_ampresand_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_ampresand_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.i
+.PHONY : sources/parser/handle_in_ampresand_state.c.i
+
+sources/parser/handle_in_ampresand_state.s: sources/parser/handle_in_ampresand_state.c.s
+
+.PHONY : sources/parser/handle_in_ampresand_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_ampresand_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.s
+.PHONY : sources/parser/handle_in_ampresand_state.c.s
+
+sources/parser/handle_in_and_state.o: sources/parser/handle_in_and_state.c.o
+
+.PHONY : sources/parser/handle_in_and_state.o
+
+# target to build an object file
+sources/parser/handle_in_and_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o
+.PHONY : sources/parser/handle_in_and_state.c.o
+
+sources/parser/handle_in_and_state.i: sources/parser/handle_in_and_state.c.i
+
+.PHONY : sources/parser/handle_in_and_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_and_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.i
+.PHONY : sources/parser/handle_in_and_state.c.i
+
+sources/parser/handle_in_and_state.s: sources/parser/handle_in_and_state.c.s
+
+.PHONY : sources/parser/handle_in_and_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_and_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.s
+.PHONY : sources/parser/handle_in_and_state.c.s
+
+sources/parser/handle_in_backslash_state.o: sources/parser/handle_in_backslash_state.c.o
+
+.PHONY : sources/parser/handle_in_backslash_state.o
+
+# target to build an object file
+sources/parser/handle_in_backslash_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o
+.PHONY : sources/parser/handle_in_backslash_state.c.o
+
+sources/parser/handle_in_backslash_state.i: sources/parser/handle_in_backslash_state.c.i
+
+.PHONY : sources/parser/handle_in_backslash_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_backslash_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.i
+.PHONY : sources/parser/handle_in_backslash_state.c.i
+
+sources/parser/handle_in_backslash_state.s: sources/parser/handle_in_backslash_state.c.s
+
+.PHONY : sources/parser/handle_in_backslash_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_backslash_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.s
+.PHONY : sources/parser/handle_in_backslash_state.c.s
+
+sources/parser/handle_in_double_quotes_state.o: sources/parser/handle_in_double_quotes_state.c.o
+
+.PHONY : sources/parser/handle_in_double_quotes_state.o
+
+# target to build an object file
+sources/parser/handle_in_double_quotes_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o
+.PHONY : sources/parser/handle_in_double_quotes_state.c.o
+
+sources/parser/handle_in_double_quotes_state.i: sources/parser/handle_in_double_quotes_state.c.i
+
+.PHONY : sources/parser/handle_in_double_quotes_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_double_quotes_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.i
+.PHONY : sources/parser/handle_in_double_quotes_state.c.i
+
+sources/parser/handle_in_double_quotes_state.s: sources/parser/handle_in_double_quotes_state.c.s
+
+.PHONY : sources/parser/handle_in_double_quotes_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_double_quotes_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.s
+.PHONY : sources/parser/handle_in_double_quotes_state.c.s
+
+sources/parser/handle_in_or_state.o: sources/parser/handle_in_or_state.c.o
+
+.PHONY : sources/parser/handle_in_or_state.o
+
+# target to build an object file
+sources/parser/handle_in_or_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o
+.PHONY : sources/parser/handle_in_or_state.c.o
+
+sources/parser/handle_in_or_state.i: sources/parser/handle_in_or_state.c.i
+
+.PHONY : sources/parser/handle_in_or_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_or_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.i
+.PHONY : sources/parser/handle_in_or_state.c.i
+
+sources/parser/handle_in_or_state.s: sources/parser/handle_in_or_state.c.s
+
+.PHONY : sources/parser/handle_in_or_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_or_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.s
+.PHONY : sources/parser/handle_in_or_state.c.s
+
+sources/parser/handle_in_pipe_state.o: sources/parser/handle_in_pipe_state.c.o
+
+.PHONY : sources/parser/handle_in_pipe_state.o
+
+# target to build an object file
+sources/parser/handle_in_pipe_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o
+.PHONY : sources/parser/handle_in_pipe_state.c.o
+
+sources/parser/handle_in_pipe_state.i: sources/parser/handle_in_pipe_state.c.i
+
+.PHONY : sources/parser/handle_in_pipe_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_pipe_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.i
+.PHONY : sources/parser/handle_in_pipe_state.c.i
+
+sources/parser/handle_in_pipe_state.s: sources/parser/handle_in_pipe_state.c.s
+
+.PHONY : sources/parser/handle_in_pipe_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_pipe_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s
+.PHONY : sources/parser/handle_in_pipe_state.c.s
+
+sources/parser/handle_in_semicolon_state.o: sources/parser/handle_in_semicolon_state.c.o
+
+.PHONY : sources/parser/handle_in_semicolon_state.o
+
+# target to build an object file
+sources/parser/handle_in_semicolon_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o
+.PHONY : sources/parser/handle_in_semicolon_state.c.o
+
+sources/parser/handle_in_semicolon_state.i: sources/parser/handle_in_semicolon_state.c.i
+
+.PHONY : sources/parser/handle_in_semicolon_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_semicolon_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.i
+.PHONY : sources/parser/handle_in_semicolon_state.c.i
+
+sources/parser/handle_in_semicolon_state.s: sources/parser/handle_in_semicolon_state.c.s
+
+.PHONY : sources/parser/handle_in_semicolon_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_semicolon_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.s
+.PHONY : sources/parser/handle_in_semicolon_state.c.s
+
+sources/parser/handle_in_single_quotes_state.o: sources/parser/handle_in_single_quotes_state.c.o
+
+.PHONY : sources/parser/handle_in_single_quotes_state.o
+
+# target to build an object file
+sources/parser/handle_in_single_quotes_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o
+.PHONY : sources/parser/handle_in_single_quotes_state.c.o
+
+sources/parser/handle_in_single_quotes_state.i: sources/parser/handle_in_single_quotes_state.c.i
+
+.PHONY : sources/parser/handle_in_single_quotes_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_single_quotes_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.i
+.PHONY : sources/parser/handle_in_single_quotes_state.c.i
+
+sources/parser/handle_in_single_quotes_state.s: sources/parser/handle_in_single_quotes_state.c.s
+
+.PHONY : sources/parser/handle_in_single_quotes_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_single_quotes_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.s
+.PHONY : sources/parser/handle_in_single_quotes_state.c.s
+
+sources/parser/handle_in_string_state.o: sources/parser/handle_in_string_state.c.o
+
+.PHONY : sources/parser/handle_in_string_state.o
+
+# target to build an object file
+sources/parser/handle_in_string_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o
+.PHONY : sources/parser/handle_in_string_state.c.o
+
+sources/parser/handle_in_string_state.i: sources/parser/handle_in_string_state.c.i
+
+.PHONY : sources/parser/handle_in_string_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_string_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.i
+.PHONY : sources/parser/handle_in_string_state.c.i
+
+sources/parser/handle_in_string_state.s: sources/parser/handle_in_string_state.c.s
+
+.PHONY : sources/parser/handle_in_string_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_string_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.s
+.PHONY : sources/parser/handle_in_string_state.c.s
+
+sources/parser/handle_initial_state.o: sources/parser/handle_initial_state.c.o
+
+.PHONY : sources/parser/handle_initial_state.o
+
+# target to build an object file
+sources/parser/handle_initial_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
+.PHONY : sources/parser/handle_initial_state.c.o
+
+sources/parser/handle_initial_state.i: sources/parser/handle_initial_state.c.i
+
+.PHONY : sources/parser/handle_initial_state.i
+
+# target to preprocess a source file
+sources/parser/handle_initial_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.i
+.PHONY : sources/parser/handle_initial_state.c.i
+
+sources/parser/handle_initial_state.s: sources/parser/handle_initial_state.c.s
+
+.PHONY : sources/parser/handle_initial_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_initial_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s
+.PHONY : sources/parser/handle_initial_state.c.s
+
 sources/utils/ls_append.o: sources/utils/ls_append.c.o
 
 .PHONY : sources/utils/ls_append.o
@@ -2433,6 +2703,36 @@ help:
 	@echo "... sources/parser/handle_general_state.o"
 	@echo "... sources/parser/handle_general_state.i"
 	@echo "... sources/parser/handle_general_state.s"
+	@echo "... sources/parser/handle_in_ampresand_state.o"
+	@echo "... sources/parser/handle_in_ampresand_state.i"
+	@echo "... sources/parser/handle_in_ampresand_state.s"
+	@echo "... sources/parser/handle_in_and_state.o"
+	@echo "... sources/parser/handle_in_and_state.i"
+	@echo "... sources/parser/handle_in_and_state.s"
+	@echo "... sources/parser/handle_in_backslash_state.o"
+	@echo "... sources/parser/handle_in_backslash_state.i"
+	@echo "... sources/parser/handle_in_backslash_state.s"
+	@echo "... sources/parser/handle_in_double_quotes_state.o"
+	@echo "... sources/parser/handle_in_double_quotes_state.i"
+	@echo "... sources/parser/handle_in_double_quotes_state.s"
+	@echo "... sources/parser/handle_in_or_state.o"
+	@echo "... sources/parser/handle_in_or_state.i"
+	@echo "... sources/parser/handle_in_or_state.s"
+	@echo "... sources/parser/handle_in_pipe_state.o"
+	@echo "... sources/parser/handle_in_pipe_state.i"
+	@echo "... sources/parser/handle_in_pipe_state.s"
+	@echo "... sources/parser/handle_in_semicolon_state.o"
+	@echo "... sources/parser/handle_in_semicolon_state.i"
+	@echo "... sources/parser/handle_in_semicolon_state.s"
+	@echo "... sources/parser/handle_in_single_quotes_state.o"
+	@echo "... sources/parser/handle_in_single_quotes_state.i"
+	@echo "... sources/parser/handle_in_single_quotes_state.s"
+	@echo "... sources/parser/handle_in_string_state.o"
+	@echo "... sources/parser/handle_in_string_state.i"
+	@echo "... sources/parser/handle_in_string_state.s"
+	@echo "... sources/parser/handle_initial_state.o"
+	@echo "... sources/parser/handle_initial_state.i"
+	@echo "... sources/parser/handle_initial_state.s"
 	@echo "... sources/utils/ls_append.o"
 	@echo "... sources/utils/ls_append.i"
 	@echo "... sources/utils/ls_append.s"
