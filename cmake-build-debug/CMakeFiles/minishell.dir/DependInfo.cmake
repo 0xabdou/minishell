@@ -77,6 +77,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isupper.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_isupper.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_tolower.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/parser/append_token_ls.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/parser/append_token_string.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o"

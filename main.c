@@ -10,7 +10,7 @@ void print_tokens(t_list *tokens)
 {
 	while (tokens)
 	{
-		char *token = ls_to_string((t_linked_string *)(tokens->content));
+		char *token = tokens->content;
 		ft_printf("\"%s\" ", token);
 		tokens = tokens->next;
 	}

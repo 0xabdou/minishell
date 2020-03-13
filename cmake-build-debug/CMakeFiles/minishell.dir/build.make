@@ -1188,6 +1188,32 @@ CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s
 
+CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: ../sources/parser/append_token_ls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_ls.c
+
+CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_ls.c > CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.i
+
+CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_ls.c -o CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.s
+
+CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: ../sources/parser/append_token_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o   -c /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_string.c
+
+CMakeFiles/minishell.dir/sources/parser/append_token_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/append_token_string.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_string.c > CMakeFiles/minishell.dir/sources/parser/append_token_string.c.i
+
+CMakeFiles/minishell.dir/sources/parser/append_token_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/append_token_string.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_string.c -o CMakeFiles/minishell.dir/sources/parser/append_token_string.c.s
+
 # Object files for target minishell
 minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/main.c.o" \
@@ -1276,7 +1302,9 @@ minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o" \
 "CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o" \
 "CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o" \
-"CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o"
+"CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o"
 
 # External object files for target minishell
 minishell_EXTERNAL_OBJECTS =
@@ -1368,9 +1396,11 @@ minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

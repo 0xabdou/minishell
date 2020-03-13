@@ -26,7 +26,7 @@ stdlib.h
 unistd.h
 -
 
-/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c
+/Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c
 parser.h
 /Users/aouahib/CLionProjects/minishell/sources/parser/parser.h
 

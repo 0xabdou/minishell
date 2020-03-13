@@ -7,31 +7,31 @@ void	handle_in_string_state(t_parse_params *p) {
 		//TODO : append char to p->token
 	} else if (p->cat == CHAR_WHITE_SPACE) {
 		p->next_state = STATE_GENERAL;
-		ft_lstadd_back(&p->tokens, ft_lstnew(p->token));
+		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_NEWLINE)
 	{
 		p->next_state = STATE_INITIAL;
-		ft_lstadd_back(&p->tokens, ft_lstnew(p->token));
+		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_SEMICOLON)
 	{
 		p->next_state = STATE_IN_SEMICOLON;
-		ft_lstadd_back(&p->tokens, ft_lstnew(p->token));
+		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_AMPERSAND)
 	{
 		p->next_state = STATE_IN_AMPERSAND;
-		ft_lstadd_back(&p->tokens, ft_lstnew(p->token));
+		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_PIPE)
 	{
 		p->next_state = STATE_IN_PIPE;
-		ft_lstadd_back(&p->tokens, ft_lstnew(p->token));
+		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_BACKSLASH)

@@ -59,5 +59,7 @@ void	handle_in_and_state(t_parse_params *params);
 void	handle_in_single_quotes_state(t_parse_params *params);
 void	handle_in_double_quotes_state(t_parse_params *params);
 void	handle_in_backslash_state(t_parse_params *params);
+void	append_token_str(t_list **tokens, char *string);
+void	append_token_ls(t_list **tokens, t_linked_string *ls);
 
 #endif
