@@ -77,6 +77,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isupper.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_isupper.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_tolower.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o"
   "/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/utils/ls_append.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/utils/ls_append.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/utils/ls_length.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/utils/ls_length.c.o"
+  "/Users/aouahib/CLionProjects/minishell/sources/utils/ls_to_string.c" "/Users/aouahib/CLionProjects/minishell/cmake-build-debug/CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

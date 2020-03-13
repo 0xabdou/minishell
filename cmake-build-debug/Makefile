@@ -2094,6 +2094,114 @@ sources/libft/src/types/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.s
 .PHONY : sources/libft/src/types/ft_toupper.c.s
 
+sources/parser/handle_general_state.o: sources/parser/handle_general_state.c.o
+
+.PHONY : sources/parser/handle_general_state.o
+
+# target to build an object file
+sources/parser/handle_general_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o
+.PHONY : sources/parser/handle_general_state.c.o
+
+sources/parser/handle_general_state.i: sources/parser/handle_general_state.c.i
+
+.PHONY : sources/parser/handle_general_state.i
+
+# target to preprocess a source file
+sources/parser/handle_general_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.i
+.PHONY : sources/parser/handle_general_state.c.i
+
+sources/parser/handle_general_state.s: sources/parser/handle_general_state.c.s
+
+.PHONY : sources/parser/handle_general_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_general_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.s
+.PHONY : sources/parser/handle_general_state.c.s
+
+sources/utils/ls_append.o: sources/utils/ls_append.c.o
+
+.PHONY : sources/utils/ls_append.o
+
+# target to build an object file
+sources/utils/ls_append.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_append.c.o
+.PHONY : sources/utils/ls_append.c.o
+
+sources/utils/ls_append.i: sources/utils/ls_append.c.i
+
+.PHONY : sources/utils/ls_append.i
+
+# target to preprocess a source file
+sources/utils/ls_append.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_append.c.i
+.PHONY : sources/utils/ls_append.c.i
+
+sources/utils/ls_append.s: sources/utils/ls_append.c.s
+
+.PHONY : sources/utils/ls_append.s
+
+# target to generate assembly for a file
+sources/utils/ls_append.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_append.c.s
+.PHONY : sources/utils/ls_append.c.s
+
+sources/utils/ls_length.o: sources/utils/ls_length.c.o
+
+.PHONY : sources/utils/ls_length.o
+
+# target to build an object file
+sources/utils/ls_length.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_length.c.o
+.PHONY : sources/utils/ls_length.c.o
+
+sources/utils/ls_length.i: sources/utils/ls_length.c.i
+
+.PHONY : sources/utils/ls_length.i
+
+# target to preprocess a source file
+sources/utils/ls_length.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_length.c.i
+.PHONY : sources/utils/ls_length.c.i
+
+sources/utils/ls_length.s: sources/utils/ls_length.c.s
+
+.PHONY : sources/utils/ls_length.s
+
+# target to generate assembly for a file
+sources/utils/ls_length.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_length.c.s
+.PHONY : sources/utils/ls_length.c.s
+
+sources/utils/ls_to_string.o: sources/utils/ls_to_string.c.o
+
+.PHONY : sources/utils/ls_to_string.o
+
+# target to build an object file
+sources/utils/ls_to_string.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o
+.PHONY : sources/utils/ls_to_string.c.o
+
+sources/utils/ls_to_string.i: sources/utils/ls_to_string.c.i
+
+.PHONY : sources/utils/ls_to_string.i
+
+# target to preprocess a source file
+sources/utils/ls_to_string.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.i
+.PHONY : sources/utils/ls_to_string.c.i
+
+sources/utils/ls_to_string.s: sources/utils/ls_to_string.c.s
+
+.PHONY : sources/utils/ls_to_string.s
+
+# target to generate assembly for a file
+sources/utils/ls_to_string.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.s
+.PHONY : sources/utils/ls_to_string.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2322,6 +2430,18 @@ help:
 	@echo "... sources/libft/src/types/ft_toupper.o"
 	@echo "... sources/libft/src/types/ft_toupper.i"
 	@echo "... sources/libft/src/types/ft_toupper.s"
+	@echo "... sources/parser/handle_general_state.o"
+	@echo "... sources/parser/handle_general_state.i"
+	@echo "... sources/parser/handle_general_state.s"
+	@echo "... sources/utils/ls_append.o"
+	@echo "... sources/utils/ls_append.i"
+	@echo "... sources/utils/ls_append.s"
+	@echo "... sources/utils/ls_length.o"
+	@echo "... sources/utils/ls_length.i"
+	@echo "... sources/utils/ls_length.s"
+	@echo "... sources/utils/ls_to_string.o"
+	@echo "... sources/utils/ls_to_string.i"
+	@echo "... sources/utils/ls_to_string.s"
 .PHONY : help
 
 

@@ -8,6 +8,12 @@
 
 ../includes/parser.h
 
+../includes/utils.h
+stdlib.h
+-
+stdio.h
+-
+
 ../sources/libft/inc/get_next_line.h
 unistd.h
 -
@@ -38,6 +44,8 @@ stdlib.h
 get_next_line.h
 -
 libftprintf.h
+-
+utils.h
 -
 parser.h
 /Users/aouahib/CLionProjects/minishell/parser.h

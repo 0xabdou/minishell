@@ -76,6 +76,6 @@ add_executable(minishell main.c
         ./sources/libft/src/types/ft_isupper.c
         ./sources/libft/src/types/ft_tolower.c
         ./sources/libft/src/types/ft_toupper.c
-        includes/parser.h)
+        includes/parser.h includes/utils.h sources/utils/ls_append.c sources/utils/ls_to_string.c sources/utils/ls_length.c sources/parser/handle_general_state.c)
 
 include_directories(includes sources/libft/inc)

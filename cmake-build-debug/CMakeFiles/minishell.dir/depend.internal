@@ -3,6 +3,7 @@
 
 CMakeFiles/minishell.dir/main.c.o
  ../includes/parser.h
+ ../includes/utils.h
  ../sources/libft/inc/get_next_line.h
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
@@ -236,3 +237,12 @@ CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o
  ../sources/libft/inc/libft.h
  /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c
+CMakeFiles/minishell.dir/sources/utils/ls_append.c.o
+ ../includes/utils.h
+ /Users/aouahib/CLionProjects/minishell/sources/utils/ls_append.c
+CMakeFiles/minishell.dir/sources/utils/ls_length.c.o
+ ../includes/utils.h
+ /Users/aouahib/CLionProjects/minishell/sources/utils/ls_length.c
+CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o
+ ../includes/utils.h
+ /Users/aouahib/CLionProjects/minishell/sources/utils/ls_to_string.c

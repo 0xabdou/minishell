@@ -72,6 +72,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/sources/libft/src/types/ft_isupper.c.o"
   "CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o"
   "CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o"
+  "CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o"
+  "CMakeFiles/minishell.dir/sources/utils/ls_append.c.o"
+  "CMakeFiles/minishell.dir/sources/utils/ls_length.c.o"
+  "CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o"
   "minishell"
   "minishell.pdb"
 )

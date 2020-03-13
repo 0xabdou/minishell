@@ -3,7 +3,19 @@
 #include <stdlib.h>
 #include <get_next_line.h>
 #include <libftprintf.h>
+#include <utils.h>
 #include "parser.h"
+
+void print_tokens(t_list *tokens)
+{
+	while (tokens)
+	{
+		char *token = ls_to_string((t_linked_string *)(tokens->content));
+		ft_printf("\"%s\" ", token);
+		tokens = tokens->next;
+	}
+	ft_printf("\n");
+}
 
 t_char_category translate(char c)
 {
@@ -40,12 +52,15 @@ void minishell_loop()
 	t_state			previous_state;
 	t_state			current_state;
 	t_state			next_state;
+	t_linked_string	*token;
+	t_list			*tokens;
 
 	r = 1;
 	current_state = STATE_INITIAL;
 	while ((r = get_next_line(0, &line)) == 1)
 	{
-
+		token = 0;
+		tokens = 0;
 		last_chance = 1;
 		previous_state = STATE_INITIAL;
 		current_state = STATE_INITIAL;
@@ -69,6 +84,9 @@ void minishell_loop()
 			}
 			else if (current_state == STATE_GENERAL)
 			{
+				if (token)
+					ft_lstadd_back(&tokens, ft_lstnew(token));
+				token = 0;
 				if (cat == CHAR_WHITE_SPACE || cat == CHAR_NEWLINE)
 					next_state = STATE_GENERAL;
 				else if (cat == CHAR_SEMICOLON)
@@ -81,7 +99,8 @@ void minishell_loop()
 					next_state = STATE_IN_SINGLE_QUOTES;
 				else if (cat == CHAR_DOUBLE_QUOTE)
 					next_state = STATE_IN_DOUBLE_QUOTES;
-				else if (cat == CHAR_GENERAL){
+				else if (cat == CHAR_GENERAL)
+				{
 					next_state = STATE_IN_STRING;
 					i--;
 				}
@@ -96,6 +115,7 @@ void minishell_loop()
 				if (cat == CHAR_GENERAL)
 				{
 					next_state = STATE_IN_STRING;
+					ls_append(&token, line[i]);
 					//TODO : append char to token
 				}
 				else if (cat == CHAR_WHITE_SPACE || cat == CHAR_NEWLINE)
@@ -106,16 +126,19 @@ void minishell_loop()
 				else if (cat == CHAR_SEMICOLON)
 				{
 					next_state = STATE_IN_SEMICOLON;
+					ft_lstadd_back(&tokens, ft_lstnew(token));
 					//TODO: append token to list
 				}
 				else if (cat == CHAR_AMPERSAND)
 				{
 					next_state = STATE_IN_AMPERSAND;
+					ft_lstadd_back(&tokens, ft_lstnew(token));
 					//TODO: append token to list
 				}
 				else if (cat == CHAR_PIPE)
 				{
 					next_state = STATE_IN_PIPE;
+					ft_lstadd_back(&tokens, ft_lstnew(token));
 					//TODO: append token to list
 				}
 				else if (cat == CHAR_BACKSLASH)
@@ -128,6 +151,7 @@ void minishell_loop()
 				if (cat == CHAR_GENERAL)
 				{
 					next_state = STATE_IN_STRING;
+					ls_append(&token, line[i]);
 					//TODO: append char to token
 				}
 				else if (cat == CHAR_WHITE_SPACE || cat == CHAR_NEWLINE)
@@ -210,6 +234,7 @@ void minishell_loop()
 				else
 				{
 					next_state = STATE_IN_SINGLE_QUOTES;
+					ls_append(&token, line[i]);
 					//TODO: append char to token
 				}
 			}
@@ -223,7 +248,8 @@ void minishell_loop()
 					next_state = STATE_IN_BACKSLASH;
 				else
 				{
-					next_state = STATE_IN_STRING;
+					next_state = STATE_IN_DOUBLE_QUOTES;
+					ls_append(&token, line[i]);
 					//TODO: append char to token
 				}
 			}
@@ -236,10 +262,13 @@ void minishell_loop()
 					if (cat == CHAR_BACKSLASH || cat == CHAR_DOUBLE_QUOTE
 						|| cat == CHAR_DOLLAR)
 					{
+						ls_append(&token, line[i]);
 						//TODO: append char to token
 					}
 					else
 					{
+						ls_append(&token, '\\');
+						ls_append(&token, line[i]);
 						//TODO: append backslash and char to token
 					}
 					next_state = STATE_IN_DOUBLE_QUOTES;
@@ -248,6 +277,8 @@ void minishell_loop()
 						 || previous_state == STATE_IN_STRING)
 				{
 					//TODO: append char to token
+					next_state = STATE_IN_STRING;
+					ls_append(&token, line[i]);
 				}
 				else
 				{
@@ -257,7 +288,6 @@ void minishell_loop()
 			}
 			previous_state = current_state;
 			current_state = next_state;
-			ft_printf("HAHA");
 			i++;
 		}
 		if (current_state == STATE_SYNTAX_ERROR)
@@ -265,6 +295,7 @@ void minishell_loop()
 			perror("SYNTAX ERROR");
 			exit(1);
 		}
+		print_tokens(tokens);
 	}
 
 }

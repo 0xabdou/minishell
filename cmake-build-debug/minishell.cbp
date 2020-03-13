@@ -87,6 +87,9 @@
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/includes/parser.h">
 			<Option target="minishell"/>
 		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/includes/utils.h">
+			<Option target="minishell"/>
+		</Unit>
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/main.c">
 			<Option target="minishell"/>
 		</Unit>
@@ -304,6 +307,18 @@
 			<Option target="minishell"/>
 		</Unit>
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/utils/ls_append.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/utils/ls_length.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/aouahib/CLionProjects/minishell/sources/utils/ls_to_string.c">
 			<Option target="minishell"/>
 		</Unit>
 		<Unit filename="/Users/aouahib/CLionProjects/minishell/CMakeLists.txt">

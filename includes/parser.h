@@ -1,6 +1,9 @@
 #ifndef PARSER_H
 #define PARSER_H
 
+#include "utils.h"
+#include "libft.h"
+
 typedef enum	e_state
 {
 	STATE_INITIAL,
@@ -31,5 +34,16 @@ typedef enum	e_char_category
 	CHAR_DOLLAR,
 	CHAR_INVALID,
 }				t_char_category;
+
+typedef struct	s_parse_params
+{
+	t_state			previous_state;
+	t_state			current_state;
+	t_state			next_state;
+	t_linked_string	*token;
+	t_list			*tokens;
+}				t_parse_params;
+
+void	handle_general_state();
 
 #endif
