@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/parser.h
+
+../sources/libft/inc/get_next_line.h
+unistd.h
+-
+stdlib.h
+-
+
+../sources/libft/inc/libft.h
+stddef.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+../sources/libft/inc/libftprintf.h
+libft.h
+../sources/libft/inc/libft.h
+stdarg.h
+-
+
+/Users/aouahib/CLionProjects/minishell/main.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+get_next_line.h
+-
+libftprintf.h
+-
+parser.h
+/Users/aouahib/CLionProjects/minishell/parser.h
+
