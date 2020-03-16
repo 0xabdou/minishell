@@ -267,6 +267,11 @@ CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o: ../in
 CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o: ../sources/libft/inc/libft.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o: ../sources/parser/handle_in_double_quotes_state.c
 
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: ../sources/parser/handle_in_greater_state.c
+
 CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o: ../includes/parser.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o: ../includes/utils.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o: ../sources/libft/inc/libft.h
@@ -276,6 +281,21 @@ CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: ../includes/pa
 CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: ../includes/utils.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: ../sources/libft/inc/libft.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o: ../sources/parser/handle_in_pipe_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o: ../sources/parser/handle_in_redir_append_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: ../sources/parser/handle_in_redir_input_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: ../sources/parser/handle_in_redir_output_state.c
 
 CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o: ../includes/parser.h
 CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o: ../includes/utils.h

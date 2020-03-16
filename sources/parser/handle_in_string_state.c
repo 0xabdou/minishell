@@ -21,7 +21,7 @@ void	handle_in_string_state(t_parse_params *p) {
 	{
 		p->next_state = STATE_IN_SEMICOLON;
 		append_token(p, TYPE_STRING, 0);
-		append_token(p, TYPE_SPECIAL, ft_strdup(";"));
+		append_token(p, TYPE_SPECIAL, ";");
 		p->token = 0;
 		//TODO: append p->token to list
 	}

@@ -2337,6 +2337,33 @@ sources/parser/handle_in_pipe_state.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s
 .PHONY : sources/parser/handle_in_pipe_state.c.s
 
+sources/parser/handle_in_redir_append_state.o: sources/parser/handle_in_redir_append_state.c.o
+
+.PHONY : sources/parser/handle_in_redir_append_state.o
+
+# target to build an object file
+sources/parser/handle_in_redir_append_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o
+.PHONY : sources/parser/handle_in_redir_append_state.c.o
+
+sources/parser/handle_in_redir_append_state.i: sources/parser/handle_in_redir_append_state.c.i
+
+.PHONY : sources/parser/handle_in_redir_append_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_redir_append_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.i
+.PHONY : sources/parser/handle_in_redir_append_state.c.i
+
+sources/parser/handle_in_redir_append_state.s: sources/parser/handle_in_redir_append_state.c.s
+
+.PHONY : sources/parser/handle_in_redir_append_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_redir_append_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.s
+.PHONY : sources/parser/handle_in_redir_append_state.c.s
+
 sources/parser/handle_in_redir_input_state.o: sources/parser/handle_in_redir_input_state.c.o
 
 .PHONY : sources/parser/handle_in_redir_input_state.o
@@ -2835,6 +2862,9 @@ help:
 	@echo "... sources/parser/handle_in_pipe_state.o"
 	@echo "... sources/parser/handle_in_pipe_state.i"
 	@echo "... sources/parser/handle_in_pipe_state.s"
+	@echo "... sources/parser/handle_in_redir_append_state.o"
+	@echo "... sources/parser/handle_in_redir_append_state.i"
+	@echo "... sources/parser/handle_in_redir_append_state.s"
 	@echo "... sources/parser/handle_in_redir_input_state.o"
 	@echo "... sources/parser/handle_in_redir_input_state.i"
 	@echo "... sources/parser/handle_in_redir_input_state.s"

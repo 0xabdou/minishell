@@ -5,13 +5,13 @@ void	handle_in_or_state(t_parse_params *p)
 	if (p->cat == CHAR_GENERAL)
 	{
 		p->next_state = STATE_IN_STRING;
-		append_token(p, TYPE_SPECIAL, ft_strdup("||"));
+		append_token(p, TYPE_SPECIAL, "||");
 		//TODO: append || to p->token list
 	}
 	else if (p->cat == CHAR_WHITE_SPACE)
 	{
 		p->next_state = STATE_GENERAL;
-		append_token(p, TYPE_SPECIAL, ft_strdup("||"));
+		append_token(p, TYPE_SPECIAL, "||");
 		//TODO: append || to p->token list
 	}
 	else

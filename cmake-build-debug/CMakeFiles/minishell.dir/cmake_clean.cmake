@@ -81,6 +81,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o"
+  "CMakeFiles/minishell.dir/sources/parser/handle_in_redir_append_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o"

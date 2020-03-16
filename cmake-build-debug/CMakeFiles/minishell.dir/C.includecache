@@ -26,11 +26,7 @@ stdlib.h
 unistd.h
 -
 
-/Users/administrator/CLionProjects/minishell/sources/parser/handle_in_or_state.c
-parser.h
-/Users/administrator/CLionProjects/minishell/sources/parser/parser.h
-
-/Users/administrator/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c
+/Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_append_state.c
 parser.h
 /Users/administrator/CLionProjects/minishell/sources/parser/parser.h
 
