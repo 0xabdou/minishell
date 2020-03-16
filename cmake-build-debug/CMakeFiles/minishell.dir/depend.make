@@ -237,15 +237,10 @@ CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o: ../sources/libf
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o: ../sources/libft/inc/libft.h
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o: ../sources/libft/src/types/ft_toupper.c
 
-CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: ../includes/parser.h
-CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: ../includes/utils.h
-CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: ../sources/libft/inc/libft.h
-CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o: ../sources/parser/append_token_ls.c
-
-CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: ../includes/parser.h
-CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: ../includes/utils.h
-CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: ../sources/libft/inc/libft.h
-CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o: ../sources/parser/append_token_string.c
+CMakeFiles/minishell.dir/sources/parser/append_token.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/append_token.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/append_token.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/append_token.c.o: ../sources/parser/append_token.c
 
 CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o: ../includes/parser.h
 CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o: ../includes/utils.h

@@ -237,16 +237,11 @@ CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o
  ../sources/libft/inc/libft.h
  /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c
-CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o
+CMakeFiles/minishell.dir/sources/parser/append_token.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/administrator/CLionProjects/minishell/sources/parser/append_token_ls.c
-CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o
- ../includes/parser.h
- ../includes/utils.h
- ../sources/libft/inc/libft.h
- /Users/administrator/CLionProjects/minishell/sources/parser/append_token_string.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/append_token.c
 CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o
  ../includes/parser.h
  ../includes/utils.h

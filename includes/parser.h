@@ -19,7 +19,7 @@ typedef enum	e_state
 	STATE_IN_BACKSLASH,
 	STATE_IN_GREATER,
 	STATE_IN_INPUT_REDIRECTION,
-    STATE_IN_OUTPUT_REDIRECTION,
+	STATE_IN_OUTPUT_REDIRECTION,
 	STATE_IN_APPEND_REDIRECTION,
 	STATE_SYNTAX_ERROR,
 }				t_state;
@@ -43,15 +43,15 @@ typedef enum	e_char_category
 
 typedef enum    e_token_type
 {
-   TYPE_STRING,
-   TYPE_SPECIAL,
+	TYPE_STRING,
+	TYPE_SPECIAL,
 }               t_token_type;
 
-typedef struct  s_token_list
+typedef struct  s_token
 {
-    t_token_type    type;
-    char            *token;
-}               t_token_list;
+	t_token_type    type;
+	char            *value;
+}               t_token;
 
 typedef struct	s_parse_params
 {
@@ -60,7 +60,7 @@ typedef struct	s_parse_params
 	t_state			next_state;
 	t_linked_string	*token;
 	t_char_category cat;
-	t_token_list    *tokens;
+	t_list			*tokens;
 	int				last_chance;
 	int				i;
 	char			c;
@@ -77,7 +77,7 @@ void	handle_in_and_state(t_parse_params *params);
 void	handle_in_single_quotes_state(t_parse_params *params);
 void	handle_in_double_quotes_state(t_parse_params *params);
 void	handle_in_backslash_state(t_parse_params *params);
-void	append_token_str(t_list **tokens, char *string);
-void	append_token_ls(t_list **tokens, t_linked_string *ls);
+void	append_token(t_parse_params *params, t_token_type type, char *maybe_str);
 
 #endif
+

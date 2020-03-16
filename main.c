@@ -10,8 +10,11 @@ void print_tokens(t_list *tokens)
 {
 	while (tokens)
 	{
-		char *token = tokens->content;
-		ft_printf("\"%s\" ", token);
+		t_token	*token = ((t_token *)tokens->content);
+		if (token->type == TYPE_STRING)
+			ft_printf("\"%s\" ", token->value);
+		else
+			ft_printf("%s ", token->value);
 		tokens = tokens->next;
 	}
 	ft_printf("\n");

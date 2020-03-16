@@ -2094,59 +2094,32 @@ sources/libft/src/types/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.s
 .PHONY : sources/libft/src/types/ft_toupper.c.s
 
-sources/parser/append_token_ls.o: sources/parser/append_token_ls.c.o
+sources/parser/append_token.o: sources/parser/append_token.c.o
 
-.PHONY : sources/parser/append_token_ls.o
-
-# target to build an object file
-sources/parser/append_token_ls.c.o:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o
-.PHONY : sources/parser/append_token_ls.c.o
-
-sources/parser/append_token_ls.i: sources/parser/append_token_ls.c.i
-
-.PHONY : sources/parser/append_token_ls.i
-
-# target to preprocess a source file
-sources/parser/append_token_ls.c.i:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.i
-.PHONY : sources/parser/append_token_ls.c.i
-
-sources/parser/append_token_ls.s: sources/parser/append_token_ls.c.s
-
-.PHONY : sources/parser/append_token_ls.s
-
-# target to generate assembly for a file
-sources/parser/append_token_ls.c.s:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.s
-.PHONY : sources/parser/append_token_ls.c.s
-
-sources/parser/append_token_string.o: sources/parser/append_token_string.c.o
-
-.PHONY : sources/parser/append_token_string.o
+.PHONY : sources/parser/append_token.o
 
 # target to build an object file
-sources/parser/append_token_string.c.o:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o
-.PHONY : sources/parser/append_token_string.c.o
+sources/parser/append_token.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token.c.o
+.PHONY : sources/parser/append_token.c.o
 
-sources/parser/append_token_string.i: sources/parser/append_token_string.c.i
+sources/parser/append_token.i: sources/parser/append_token.c.i
 
-.PHONY : sources/parser/append_token_string.i
+.PHONY : sources/parser/append_token.i
 
 # target to preprocess a source file
-sources/parser/append_token_string.c.i:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_string.c.i
-.PHONY : sources/parser/append_token_string.c.i
+sources/parser/append_token.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token.c.i
+.PHONY : sources/parser/append_token.c.i
 
-sources/parser/append_token_string.s: sources/parser/append_token_string.c.s
+sources/parser/append_token.s: sources/parser/append_token.c.s
 
-.PHONY : sources/parser/append_token_string.s
+.PHONY : sources/parser/append_token.s
 
 # target to generate assembly for a file
-sources/parser/append_token_string.c.s:
-	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token_string.c.s
-.PHONY : sources/parser/append_token_string.c.s
+sources/parser/append_token.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/append_token.c.s
+.PHONY : sources/parser/append_token.c.s
 
 sources/parser/handle_general_state.o: sources/parser/handle_general_state.c.o
 
@@ -2754,12 +2727,9 @@ help:
 	@echo "... sources/libft/src/types/ft_toupper.o"
 	@echo "... sources/libft/src/types/ft_toupper.i"
 	@echo "... sources/libft/src/types/ft_toupper.s"
-	@echo "... sources/parser/append_token_ls.o"
-	@echo "... sources/parser/append_token_ls.i"
-	@echo "... sources/parser/append_token_ls.s"
-	@echo "... sources/parser/append_token_string.o"
-	@echo "... sources/parser/append_token_string.i"
-	@echo "... sources/parser/append_token_string.s"
+	@echo "... sources/parser/append_token.o"
+	@echo "... sources/parser/append_token.i"
+	@echo "... sources/parser/append_token.s"
 	@echo "... sources/parser/handle_general_state.o"
 	@echo "... sources/parser/handle_general_state.i"
 	@echo "... sources/parser/handle_general_state.s"
