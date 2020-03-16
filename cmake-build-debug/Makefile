@@ -2526,6 +2526,33 @@ sources/parser/handle_initial_state.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.s
 .PHONY : sources/parser/handle_initial_state.c.s
 
+sources/parser/handle_piped_state.o: sources/parser/handle_piped_state.c.o
+
+.PHONY : sources/parser/handle_piped_state.o
+
+# target to build an object file
+sources/parser/handle_piped_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o
+.PHONY : sources/parser/handle_piped_state.c.o
+
+sources/parser/handle_piped_state.i: sources/parser/handle_piped_state.c.i
+
+.PHONY : sources/parser/handle_piped_state.i
+
+# target to preprocess a source file
+sources/parser/handle_piped_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.i
+.PHONY : sources/parser/handle_piped_state.c.i
+
+sources/parser/handle_piped_state.s: sources/parser/handle_piped_state.c.s
+
+.PHONY : sources/parser/handle_piped_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_piped_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.s
+.PHONY : sources/parser/handle_piped_state.c.s
+
 sources/utils/ls_append.o: sources/utils/ls_append.c.o
 
 .PHONY : sources/utils/ls_append.o
@@ -2883,6 +2910,9 @@ help:
 	@echo "... sources/parser/handle_initial_state.o"
 	@echo "... sources/parser/handle_initial_state.i"
 	@echo "... sources/parser/handle_initial_state.s"
+	@echo "... sources/parser/handle_piped_state.o"
+	@echo "... sources/parser/handle_piped_state.i"
+	@echo "... sources/parser/handle_piped_state.s"
 	@echo "... sources/utils/ls_append.o"
 	@echo "... sources/utils/ls_append.i"
 	@echo "... sources/utils/ls_append.s"

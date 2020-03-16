@@ -21,6 +21,8 @@ void	handle_general_state(t_parse_params *p)
 		p->next_state = STATE_IN_GREATER;
 	else if (p->cat == CHAR_LESS)
 		p->next_state = STATE_IN_LESS;
+	else if (p->cat == CHAR_INVALID)
+		p->next_state = STATE_SYNTAX_ERROR;
 	else if (p->cat == CHAR_GENERAL)
 	{
 		p->next_state = STATE_IN_STRING;

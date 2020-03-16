@@ -11,6 +11,7 @@ typedef enum	e_state
 	STATE_IN_STRING,
 	STATE_IN_SEMICOLON,
 	STATE_IN_PIPE,
+	STATE_PIPED,
 	STATE_IN_AMPERSAND,
 	STATE_IN_OR,
 	STATE_IN_AND,
@@ -72,6 +73,7 @@ void	handle_general_state(t_parse_params *params);
 void	handle_in_string_state(t_parse_params *params);
 void	handle_in_semicolon_state(t_parse_params *params);
 void	handle_in_pipe_state(t_parse_params *params);
+void	handle_piped_state(t_parse_params *params);
 void	handle_in_ampersand_state(t_parse_params *params);
 void	handle_in_or_state(t_parse_params *params);
 void	handle_in_and_state(t_parse_params *params);

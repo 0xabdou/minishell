@@ -85,6 +85,8 @@ void minishell_loop()
 				handle_in_semicolon_state(&p);
 			else if (p.current_state == STATE_IN_PIPE)
 				handle_in_pipe_state(&p);
+			else if (p.current_state == STATE_PIPED)
+				handle_piped_state(&p);
 			else if (p.current_state == STATE_IN_AMPERSAND)
 				handle_in_ampersand_state(&p);
 			else if (p.current_state == STATE_IN_OR)

@@ -317,6 +317,11 @@ CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o: ../includes/ut
 CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o: ../sources/libft/inc/libft.h
 CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o: ../sources/parser/handle_initial_state.c
 
+CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o: ../includes/parser.h
+CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o: ../includes/utils.h
+CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o: ../sources/libft/inc/libft.h
+CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o: ../sources/parser/handle_piped_state.c
+
 CMakeFiles/minishell.dir/sources/utils/ls_append.c.o: ../includes/utils.h
 CMakeFiles/minishell.dir/sources/utils/ls_append.c.o: ../sources/utils/ls_append.c
 

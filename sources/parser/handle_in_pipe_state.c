@@ -11,7 +11,7 @@ void	handle_in_pipe_state(t_parse_params *p)
 	}
 	else if (p->cat == CHAR_WHITE_SPACE)
 	{
-		p->next_state = STATE_GENERAL;
+		p->next_state = STATE_PIPED;
 		append_token(p, TYPE_SPECIAL, "|");
 		p->i--;
 		//TODO: append | to p->token list

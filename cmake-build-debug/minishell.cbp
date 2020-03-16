@@ -353,6 +353,9 @@
 		<Unit filename="/Users/administrator/CLionProjects/minishell/sources/parser/handle_initial_state.c">
 			<Option target="minishell"/>
 		</Unit>
+		<Unit filename="/Users/administrator/CLionProjects/minishell/sources/parser/handle_piped_state.c">
+			<Option target="minishell"/>
+		</Unit>
 		<Unit filename="/Users/administrator/CLionProjects/minishell/sources/utils/ls_append.c">
 			<Option target="minishell"/>
 		</Unit>

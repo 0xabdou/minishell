@@ -317,6 +317,11 @@ CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
  ../includes/utils.h
  ../sources/libft/inc/libft.h
  /Users/administrator/CLionProjects/minishell/sources/parser/handle_initial_state.c
+CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o
+ ../includes/parser.h
+ ../includes/utils.h
+ ../sources/libft/inc/libft.h
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_piped_state.c
 CMakeFiles/minishell.dir/sources/utils/ls_append.c.o
  ../includes/utils.h
  /Users/administrator/CLionProjects/minishell/sources/utils/ls_append.c

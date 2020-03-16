@@ -88,6 +88,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o"
   "CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o"
+  "CMakeFiles/minishell.dir/sources/parser/handle_piped_state.c.o"
   "CMakeFiles/minishell.dir/sources/utils/ls_append.c.o"
   "CMakeFiles/minishell.dir/sources/utils/ls_length.c.o"
   "CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o"
