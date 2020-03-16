@@ -37,6 +37,10 @@ t_char_category translate(char c)
 		return (CHAR_DOUBLE_QUOTE);
 	if (c == '$')
 		return (CHAR_DOLLAR);
+	if (c == '<')
+	    return (CHAR_LESS);
+	if (c == '>')
+	    return (CHAR_GREATER);
 	if (c == '(' || c == ')')
 		return (CHAR_INVALID);
 	return (CHAR_GENERAL);

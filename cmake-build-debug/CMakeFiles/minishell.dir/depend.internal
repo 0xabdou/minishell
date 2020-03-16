@@ -7,307 +7,307 @@ CMakeFiles/minishell.dir/main.c.o
  ../sources/libft/inc/get_next_line.h
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/main.c
+ /Users/administrator/CLionProjects/minishell/main.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/ft_printf.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/ft_printf.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/ft_printf.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_count.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_count.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_count.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_getarg.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_getarg.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_getarg.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_getdignum.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_getdignum.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_getdignum.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_isflag.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_isflag.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_isflag.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_istype.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_istype.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_istype.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_lcadd_back.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcadd_back.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcadd_back.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_lcclear.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcclear.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcclear.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_lcnew.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcnew.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcnew.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_lcprint_n_clear.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcprint_n_clear.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_lcprint_n_clear.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_order.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_order.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_order.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_parse.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_parse.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_parse.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_puthex.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_puthex.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_puthex.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putint.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putint.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putint.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putnbr.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putnbr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putnbr.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putprec.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putprec.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putprec.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putprefix.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putprefix.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putprefix.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putstr.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putstr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putstr.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_putwidth.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putwidth.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_putwidth.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_printf/src/pf_write_data.c.o
  ../sources/libft/inc/libft.h
  ../sources/libft/inc/libftprintf.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_write_data.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_printf/src/pf_write_data.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putchar.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putchar.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putchar.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putchar_fd.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putchar_fd.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putchar_fd.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putendl_fd.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putendl_fd.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putendl_fd.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putnbr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putnbr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putnbr.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putnbr_fd.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putnbr_fd.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putnbr_fd.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putnbr_unsigned.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putnbr_unsigned.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putnbr_unsigned.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putstr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putstr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putstr.c
 CMakeFiles/minishell.dir/sources/libft/src/io/ft_putstr_fd.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/ft_putstr_fd.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/ft_putstr_fd.c
 CMakeFiles/minishell.dir/sources/libft/src/io/gnl/get_next_line.c.o
  ../sources/libft/inc/get_next_line.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/gnl/get_next_line.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/gnl/get_next_line.c
 CMakeFiles/minishell.dir/sources/libft/src/io/gnl/get_next_line_utils.c.o
  ../sources/libft/inc/get_next_line.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/io/gnl/get_next_line_utils.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/io/gnl/get_next_line_utils.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstadd_back.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstadd_back.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstadd_back.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstadd_front.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstadd_front.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstadd_front.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstclear.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstclear.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstclear.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstdelone.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstdelone.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstdelone.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstiter.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstiter.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstiter.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstlast.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstlast.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstlast.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstmap.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstmap.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstmap.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstnew.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstnew.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstnew.c
 CMakeFiles/minishell.dir/sources/libft/src/lst/ft_lstsize.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/lst/ft_lstsize.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/lst/ft_lstsize.c
 CMakeFiles/minishell.dir/sources/libft/src/std/ft_atoi.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/std/ft_atoi.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/std/ft_atoi.c
 CMakeFiles/minishell.dir/sources/libft/src/std/ft_calloc.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/std/ft_calloc.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/std/ft_calloc.c
 CMakeFiles/minishell.dir/sources/libft/src/std/ft_itoa.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/std/ft_itoa.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/std/ft_itoa.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_bzero.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_bzero.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_bzero.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memccpy.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memccpy.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memccpy.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memchr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memchr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memchr.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memcmp.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memcmp.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memcmp.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memcpy.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memcpy.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memcpy.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memmove.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memmove.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memmove.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_memset.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_memset.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_memset.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_split.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_split.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_split.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strchr.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strchr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strchr.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strdup.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strdup.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strdup.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strjoin.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strjoin.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strjoin.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strlcat.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strlcat.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strlcat.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strlcpy.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strlcpy.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strlcpy.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strlen.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strlen.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strlen.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strmapi.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strmapi.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strmapi.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strncmp.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strncmp.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strncmp.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strnstr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strnstr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strnstr.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strrchr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strrchr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strrchr.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_strtrim.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_strtrim.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_strtrim.c
 CMakeFiles/minishell.dir/sources/libft/src/string/ft_substr.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/string/ft_substr.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/string/ft_substr.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isalnum.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isalnum.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isalnum.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isalpha.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isalpha.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isalpha.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isascii.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isascii.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isascii.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isdigit.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isdigit.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isdigit.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_islower.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_islower.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_islower.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isprint.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isprint.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isprint.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isspace.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isspace.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isspace.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_isupper.c.o
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_isupper.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_isupper.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_tolower.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_tolower.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_tolower.c
 CMakeFiles/minishell.dir/sources/libft/src/types/ft_toupper.c.o
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c
+ /Users/administrator/CLionProjects/minishell/sources/libft/src/types/ft_toupper.c
 CMakeFiles/minishell.dir/sources/parser/append_token_ls.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_ls.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/append_token_ls.c
 CMakeFiles/minishell.dir/sources/parser/append_token_string.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/append_token_string.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/append_token_string.c
 CMakeFiles/minishell.dir/sources/parser/handle_general_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_general_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_general_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_ampresand_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_ampresand_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_and_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_and_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_and_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_backslash_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_double_quotes_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_or_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_or_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_or_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_pipe_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_semicolon_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_semicolon_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_single_quotes_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_single_quotes_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_in_string_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_in_string_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_string_state.c
 CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
  ../includes/parser.h
  ../includes/utils.h
  ../sources/libft/inc/libft.h
- /Users/aouahib/CLionProjects/minishell/sources/parser/handle_initial_state.c
+ /Users/administrator/CLionProjects/minishell/sources/parser/handle_initial_state.c
 CMakeFiles/minishell.dir/sources/utils/ls_append.c.o
  ../includes/utils.h
- /Users/aouahib/CLionProjects/minishell/sources/utils/ls_append.c
+ /Users/administrator/CLionProjects/minishell/sources/utils/ls_append.c
 CMakeFiles/minishell.dir/sources/utils/ls_length.c.o
  ../includes/utils.h
- /Users/aouahib/CLionProjects/minishell/sources/utils/ls_length.c
+ /Users/administrator/CLionProjects/minishell/sources/utils/ls_length.c
 CMakeFiles/minishell.dir/sources/utils/ls_to_string.c.o
  ../includes/utils.h
- /Users/aouahib/CLionProjects/minishell/sources/utils/ls_to_string.c
+ /Users/administrator/CLionProjects/minishell/sources/utils/ls_to_string.c

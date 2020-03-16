@@ -17,6 +17,10 @@ typedef enum	e_state
 	STATE_IN_SINGLE_QUOTES,
 	STATE_IN_DOUBLE_QUOTES,
 	STATE_IN_BACKSLASH,
+	STATE_IN_GREATER,
+	STATE_IN_INPUT_REDIRECTION,
+    STATE_IN_OUTPUT_REDIRECTION,
+	STATE_IN_APPEND_REDIRECTION,
 	STATE_SYNTAX_ERROR,
 }				t_state;
 
@@ -32,8 +36,22 @@ typedef enum	e_char_category
 	CHAR_SINGLE_QUOTE,
 	CHAR_DOUBLE_QUOTE,
 	CHAR_DOLLAR,
+	CHAR_LESS,
+	CHAR_GREATER,
 	CHAR_INVALID,
 }				t_char_category;
+
+typedef enum    e_token_type
+{
+   TYPE_STRING,
+   TYPE_SPECIAL,
+}               t_token_type;
+
+typedef struct  s_token_list
+{
+    t_token_type    type;
+    char            *token;
+}               t_token_list;
 
 typedef struct	s_parse_params
 {
@@ -42,7 +60,7 @@ typedef struct	s_parse_params
 	t_state			next_state;
 	t_linked_string	*token;
 	t_char_category cat;
-	t_list			*tokens;
+	t_token_list    *tokens;
 	int				last_chance;
 	int				i;
 	char			c;

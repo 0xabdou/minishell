@@ -5,7 +5,8 @@ void	handle_in_string_state(t_parse_params *p) {
 		p->next_state = STATE_IN_STRING;
 		ls_append(&p->token, p->c);
 		//TODO : append char to p->token
-	} else if (p->cat == CHAR_WHITE_SPACE) {
+	}
+	else if (p->cat == CHAR_WHITE_SPACE) {
 		p->next_state = STATE_GENERAL;
 		append_token_ls(&p->tokens, p->token);
 		//TODO: append p->token to list
@@ -20,6 +21,8 @@ void	handle_in_string_state(t_parse_params *p) {
 	{
 		p->next_state = STATE_IN_SEMICOLON;
 		append_token_ls(&p->tokens, p->token);
+		append_token_str(&p->tokens, ft_strdup(";"));
+		p->token = 0;
 		//TODO: append p->token to list
 	}
 	else if (p->cat == CHAR_AMPERSAND)
