@@ -17,6 +17,10 @@ void	handle_general_state(t_parse_params *p)
 		p->next_state = STATE_IN_DOUBLE_QUOTES;
 	else if (p->cat == CHAR_BACKSLASH)
 		p->next_state = STATE_IN_BACKSLASH;
+	else if (p->cat == CHAR_GREATER)
+		p->next_state = STATE_IN_GREATER;
+	else if (p->cat == CHAR_LESS)
+		p->next_state = STATE_IN_LESS;
 	else if (p->cat == CHAR_GENERAL)
 	{
 		p->next_state = STATE_IN_STRING;

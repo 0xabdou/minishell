@@ -2256,6 +2256,33 @@ sources/parser/handle_in_double_quotes_state.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.s
 .PHONY : sources/parser/handle_in_double_quotes_state.c.s
 
+sources/parser/handle_in_greater_state.o: sources/parser/handle_in_greater_state.c.o
+
+.PHONY : sources/parser/handle_in_greater_state.o
+
+# target to build an object file
+sources/parser/handle_in_greater_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o
+.PHONY : sources/parser/handle_in_greater_state.c.o
+
+sources/parser/handle_in_greater_state.i: sources/parser/handle_in_greater_state.c.i
+
+.PHONY : sources/parser/handle_in_greater_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_greater_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.i
+.PHONY : sources/parser/handle_in_greater_state.c.i
+
+sources/parser/handle_in_greater_state.s: sources/parser/handle_in_greater_state.c.s
+
+.PHONY : sources/parser/handle_in_greater_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_greater_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.s
+.PHONY : sources/parser/handle_in_greater_state.c.s
+
 sources/parser/handle_in_or_state.o: sources/parser/handle_in_or_state.c.o
 
 .PHONY : sources/parser/handle_in_or_state.o
@@ -2309,6 +2336,60 @@ sources/parser/handle_in_pipe_state.s: sources/parser/handle_in_pipe_state.c.s
 sources/parser/handle_in_pipe_state.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_pipe_state.c.s
 .PHONY : sources/parser/handle_in_pipe_state.c.s
+
+sources/parser/handle_in_redir_input_state.o: sources/parser/handle_in_redir_input_state.c.o
+
+.PHONY : sources/parser/handle_in_redir_input_state.o
+
+# target to build an object file
+sources/parser/handle_in_redir_input_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o
+.PHONY : sources/parser/handle_in_redir_input_state.c.o
+
+sources/parser/handle_in_redir_input_state.i: sources/parser/handle_in_redir_input_state.c.i
+
+.PHONY : sources/parser/handle_in_redir_input_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_redir_input_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.i
+.PHONY : sources/parser/handle_in_redir_input_state.c.i
+
+sources/parser/handle_in_redir_input_state.s: sources/parser/handle_in_redir_input_state.c.s
+
+.PHONY : sources/parser/handle_in_redir_input_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_redir_input_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.s
+.PHONY : sources/parser/handle_in_redir_input_state.c.s
+
+sources/parser/handle_in_redir_output_state.o: sources/parser/handle_in_redir_output_state.c.o
+
+.PHONY : sources/parser/handle_in_redir_output_state.o
+
+# target to build an object file
+sources/parser/handle_in_redir_output_state.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o
+.PHONY : sources/parser/handle_in_redir_output_state.c.o
+
+sources/parser/handle_in_redir_output_state.i: sources/parser/handle_in_redir_output_state.c.i
+
+.PHONY : sources/parser/handle_in_redir_output_state.i
+
+# target to preprocess a source file
+sources/parser/handle_in_redir_output_state.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.i
+.PHONY : sources/parser/handle_in_redir_output_state.c.i
+
+sources/parser/handle_in_redir_output_state.s: sources/parser/handle_in_redir_output_state.c.s
+
+.PHONY : sources/parser/handle_in_redir_output_state.s
+
+# target to generate assembly for a file
+sources/parser/handle_in_redir_output_state.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.s
+.PHONY : sources/parser/handle_in_redir_output_state.c.s
 
 sources/parser/handle_in_semicolon_state.o: sources/parser/handle_in_semicolon_state.c.o
 
@@ -2745,12 +2826,21 @@ help:
 	@echo "... sources/parser/handle_in_double_quotes_state.o"
 	@echo "... sources/parser/handle_in_double_quotes_state.i"
 	@echo "... sources/parser/handle_in_double_quotes_state.s"
+	@echo "... sources/parser/handle_in_greater_state.o"
+	@echo "... sources/parser/handle_in_greater_state.i"
+	@echo "... sources/parser/handle_in_greater_state.s"
 	@echo "... sources/parser/handle_in_or_state.o"
 	@echo "... sources/parser/handle_in_or_state.i"
 	@echo "... sources/parser/handle_in_or_state.s"
 	@echo "... sources/parser/handle_in_pipe_state.o"
 	@echo "... sources/parser/handle_in_pipe_state.i"
 	@echo "... sources/parser/handle_in_pipe_state.s"
+	@echo "... sources/parser/handle_in_redir_input_state.o"
+	@echo "... sources/parser/handle_in_redir_input_state.i"
+	@echo "... sources/parser/handle_in_redir_input_state.s"
+	@echo "... sources/parser/handle_in_redir_output_state.o"
+	@echo "... sources/parser/handle_in_redir_output_state.i"
+	@echo "... sources/parser/handle_in_redir_output_state.s"
 	@echo "... sources/parser/handle_in_semicolon_state.o"
 	@echo "... sources/parser/handle_in_semicolon_state.i"
 	@echo "... sources/parser/handle_in_semicolon_state.s"

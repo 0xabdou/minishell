@@ -76,6 +76,6 @@ add_executable(minishell main.c
         ./sources/libft/src/types/ft_isupper.c
         ./sources/libft/src/types/ft_tolower.c
         ./sources/libft/src/types/ft_toupper.c
-        includes/utils.h sources/utils/ls_append.c sources/utils/ls_to_string.c sources/utils/ls_length.c sources/parser/handle_general_state.c sources/parser/handle_in_string_state.c sources/parser/handle_in_semicolon_state.c sources/parser/handle_in_pipe_state.c sources/parser/handle_in_ampresand_state.c sources/parser/handle_in_or_state.c sources/parser/handle_in_and_state.c sources/parser/handle_in_single_quotes_state.c sources/parser/handle_in_double_quotes_state.c sources/parser/handle_in_backslash_state.c sources/parser/handle_initial_state.c sources/parser/append_token.c includes/parser.h)
+        includes/utils.h sources/utils/ls_append.c sources/utils/ls_to_string.c sources/utils/ls_length.c sources/parser/handle_general_state.c sources/parser/handle_in_string_state.c sources/parser/handle_in_semicolon_state.c sources/parser/handle_in_pipe_state.c sources/parser/handle_in_ampresand_state.c sources/parser/handle_in_or_state.c sources/parser/handle_in_and_state.c sources/parser/handle_in_single_quotes_state.c sources/parser/handle_in_double_quotes_state.c sources/parser/handle_in_backslash_state.c sources/parser/handle_initial_state.c sources/parser/append_token.c includes/parser.h sources/parser/handle_in_greater_state.c sources/parser/handle_in_redir_input_state.c sources/parser/handle_in_redir_output_state.c)
 
 include_directories(includes sources/libft/inc)

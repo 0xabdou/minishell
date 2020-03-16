@@ -18,6 +18,7 @@ typedef enum	e_state
 	STATE_IN_DOUBLE_QUOTES,
 	STATE_IN_BACKSLASH,
 	STATE_IN_GREATER,
+	STATE_IN_LESS,
 	STATE_IN_INPUT_REDIRECTION,
 	STATE_IN_OUTPUT_REDIRECTION,
 	STATE_IN_APPEND_REDIRECTION,
@@ -77,6 +78,10 @@ void	handle_in_and_state(t_parse_params *params);
 void	handle_in_single_quotes_state(t_parse_params *params);
 void	handle_in_double_quotes_state(t_parse_params *params);
 void	handle_in_backslash_state(t_parse_params *params);
+void	handle_in_greater_state(t_parse_params *params);
+void	handle_in_redir_output_state(t_parse_params *params);
+void	handle_in_redir_append_state(t_parse_params *params);
+void	handle_in_redir_input_state(t_parse_params *params);
 void	append_token(t_parse_params *params, t_token_type type, char *maybe_str);
 
 #endif

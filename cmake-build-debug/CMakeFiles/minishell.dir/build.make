@@ -1201,6 +1201,45 @@ CMakeFiles/minishell.dir/sources/parser/append_token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/append_token.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/administrator/CLionProjects/minishell/sources/parser/append_token.c -o CMakeFiles/minishell.dir/sources/parser/append_token.c.s
 
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o: ../sources/parser/handle_in_greater_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administrator/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o   -c /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_greater_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_greater_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_greater_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o: ../sources/parser/handle_in_redir_input_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administrator/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o   -c /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_input_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_input_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_input_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.s
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o: ../sources/parser/handle_in_redir_output_state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/administrator/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o   -c /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_output_state.c
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_output_state.c > CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.i
+
+CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/administrator/CLionProjects/minishell/sources/parser/handle_in_redir_output_state.c -o CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.s
+
 # Object files for target minishell
 minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/main.c.o" \
@@ -1290,7 +1329,10 @@ minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state.c.o" \
 "CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o" \
 "CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o" \
-"CMakeFiles/minishell.dir/sources/parser/append_token.c.o"
+"CMakeFiles/minishell.dir/sources/parser/append_token.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o" \
+"CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o"
 
 # External object files for target minishell
 minishell_EXTERNAL_OBJECTS =
@@ -1383,9 +1425,12 @@ minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_double_quotes_state
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_backslash_state.c.o
 minishell: CMakeFiles/minishell.dir/sources/parser/handle_initial_state.c.o
 minishell: CMakeFiles/minishell.dir/sources/parser/append_token.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_greater_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_redir_input_state.c.o
+minishell: CMakeFiles/minishell.dir/sources/parser/handle_in_redir_output_state.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administrator/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/administrator/CLionProjects/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

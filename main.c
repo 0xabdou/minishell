@@ -97,6 +97,14 @@ void minishell_loop()
 				handle_in_double_quotes_state(&p);
 			else if (p.current_state == STATE_IN_BACKSLASH)
 				handle_in_backslash_state(&p);
+			else if (p.current_state == STATE_IN_LESS)
+				handle_in_redir_input_state(&p);
+			else if (p.current_state == STATE_IN_GREATER)
+				handle_in_greater_state(&p);
+			else if (p.current_state == STATE_IN_OUTPUT_REDIRECTION)
+				handle_in_redir_output_state(&p);
+			else if (p.current_state == STATE_IN_APPEND_REDIRECTION)
+				handle_in_redir_append_state(&p);
 			p.previous_state = p.current_state;
 			p.current_state = p.next_state;
 			p.i++;
